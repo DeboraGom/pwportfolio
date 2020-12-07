@@ -1,0 +1,144 @@
+/*geral*/
+body {
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+
+.container {
+    padding: 70px 0;
+}
+
+p {
+    font-size: 14px;
+    color:white;
+}
+li{
+    color: #444;
+    font-size: 14px;
+}
+h3{
+    font-size: 10px;
+}
+/*menu*/
+header, .navbar{
+    background-color:#68228B;
+
+}
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#logo{
+    width: 70px;
+}
+.navbar-brand{
+    padding: 0;
+    color: white;
+
+}
+.navbar-brand:hover{
+    color: white;
+}
+#navbar-links, a{
+    color: white;
+
+}
+#navbar-links, a:hover{
+    color: gray;
+}
+
+.navba-expand-lg .navbar-nav{
+    padding: 1rem .8rem;
+}
+
+/*carrossel*/
+
+.container-fluid{
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 90vh;
+}
+#mainSlider .carousel-caption h2{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+#mainSlider .carousel-caption p{
+    font-size: 21px;
+    font-weight: 200;
+    margin-bottom: 100px;
+    color: white;
+}
+.main-btn{
+    background-color:#68228B;
+    color: white;
+    text-transform: uppercase;
+    width: 240px;
+    height: 60px;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    transition: .5s;
+
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+
+}
+/*pagina de interesses*/
+#int-area {
+    background-color: #F9F9F9;
+  }
+  
+  .main-title {
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .main-title:after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+  }
+  
+  .int-title {
+    font-size: 17px;
+    color: #68228B;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+/*rodapé pagina inicial*/
+
+#footer-area{
+    text-align:center;
+
+}
+.contact-title{
+    text-align: center;
+    font-weight: bold;
+
+}
+#copy-area{
+   background-color: #68228B;
+   }
+
+#copy-area:container{
+
+    padding:8px 0;
+   text-align: center;
+}
+
+
+
